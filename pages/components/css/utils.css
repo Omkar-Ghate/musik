@@ -107,6 +107,19 @@
   font-size: 1.2rem;
 }
 
+/* iframes */
+.iframe-wrapper {
+  overflow: auto;
+  width: 100%;
+  margin: 3rem auto 4rem auto;
+  padding-top: 1rem;
+  background: var(--CARBON);
+  text-align: center;
+}
+.iframe-wrapper code iframe {
+  width: 100%;
+}
+
 @media screen and (max-width: 900px) {
   .component-doc {
     margin: 20px;
