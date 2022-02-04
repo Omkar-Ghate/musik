@@ -23,22 +23,18 @@
     border-radius: 50%;
     color: white;
 }
-
 .v1 {
     background-color:var(--SECONDARY-S1);
     border-radius: 10px;
 }
-
 .v2 {
     background-color:var(--SECONDARY-S2);
     border-radius: 50%;
 }
-
 .v3 {
     background-color:var(--SECONDARY-S3);
     border-radius: 10px;
 }
-
 .avatar-xl{
     width: 5.5rem;
     height: 5.5rem;
@@ -61,7 +57,6 @@
 .component-avatar::-webkit-scrollbar {
     display: none;
 }
-
 .component-avatar > img {
     border: 2px solid white;
 }
