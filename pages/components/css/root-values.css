@@ -8,6 +8,12 @@
 
     --BG-PRIMARY: #f3d7d5;
 
+    --DANGER: red;
+    --WARNING: rgb(204, 129, 60);
+    --INFO: rgb(77, 77, 235);
+    --SAFE: rgb(136, 185, 38);
+    
+
     --BORDER_RADIUS: 8px;
     
     --navbar20:1.25rem;
