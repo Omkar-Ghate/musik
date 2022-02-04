@@ -9,12 +9,14 @@
 }
 .avatar {
     display: flex;
-    border-radius: 50%;
-    border: 2px solid white;
-    overflow: hidden;
 }
 .avatar-sq {
     border-radius: 10px;
+}
+.avatar {
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
 }
 .avatar-txt {
     display: flex;
