@@ -1,0 +1,103 @@
+@import url(../avatar/avatar.css);
+
+/* status badges */
+.avatar {
+    position: relative;
+    overflow: initial;
+  }
+  .avatar img {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .avatar-square img {
+    border-radius: 10px;
+  }
+  .avatar-badge {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid white;
+    bottom: 0;
+    right: 0;
+  }
+  .bd-num {
+    color: var(--BG-PRIMARY);
+    font-size: 1.2rem;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .avatar-square .avatar-badge {
+    border-radius: 10px;
+    bottom: -5px;
+    right: -5px;
+  }
+  .avatar-square .avatar-badge.bd-left {
+    left: -5px;
+  }
+  .bd-left {
+    left: 0;
+  }
+  .bd-xl {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .bd-l {
+    width: 1rem;
+    height: 1rem;
+  }
+  .bd-m {
+    width: 12px;
+    height: 12px;
+  }
+  .bd-s {
+    width: 8px;
+    height: 8px;
+  }
+  .bd-green {
+    background: yellowgreen;
+  }
+  .bd-gray {
+    background: gray;
+  }
+  .bd-red {
+    background: red;
+  }
+
+  /* status-badges-w-icon */
+  .avatar-icon {
+    position: relative;
+    overflow: initial;
+  }
+
+  /* text-badges */
+  .badge{
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.badge-success{
+    color: #fff;
+    background-color: var(--SAFE);
+}
+.badge-error{
+    color: #fff;
+    background-color: var(--DANGER);
+}
+.badge-warning{
+    color: #fff;
+    background-color: var(--WARNING);
+}
+.badge-info{
+    color: #fff;
+    background-color: var(--INFO);
+}
+
+  
