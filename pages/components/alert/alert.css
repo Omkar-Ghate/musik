@@ -1,5 +1,5 @@
 .alert-box{
-    border-radius: 0.3rem;
+    border-radius: 5px;
     padding: 1rem 3rem 1rem 1rem;
     font-size: 1rem;
     margin: 1rem 0;
@@ -8,36 +8,37 @@
     box-sizing: border-box;
 }
 .alert-icon{
-    margin-right: 0.625rem;
+    margin-right: 10px;
     width: 1em;
     height: 1em;
 }
 
 .alert-primary{
-    background-color: var(--PRIMARY-P3);
-    color: #29438b;
+    color: var(--PRIMARY-P1);
+    background-color: #f39a9a;
 }
 .alert-box .link-text, .alert-box .btn{
     font-weight: 500;
 }
 .alert-secondary{
-    background-color: var(--SECONDARY-S2);
-    color: #696b79;
+    color: var(--SECONDARY-S2);
+    background-color: #c5c7f3;
 }
 .alert-success{
-    background-color: var(--SAFE);
-    color: #1b7052;
+    color: var(--SAFE);
+    background-color:  rgb(218, 236, 184);
 }
 .alert-danger{
-    color: #dc3545;
-    background-color: var(--DANGER);
+    color: var(--DANGER);
+    background-color: rgb(253, 188, 188);
 }
 .alert-warning{
-    color: #ff9204;
-    background-color: var(--WARNING);
+    color:var(--WARNING);
+    background-color: rgb(240, 214, 192);
+    /* background-color: var(--WARNING); */
 }
 .btn-close{
-    background: transparent url("/Components/images/closeIcon.svg") center/1.1em auto no-repeat;
+    background: transparent url("../../../assets/images/close-icon.svg") center/1.1em auto no-repeat;
     border: 1px solid transparent;
     width: 1.5rem;
     height: 1.5rem;
@@ -48,7 +49,7 @@
     opacity: 0.5;
     cursor: pointer;
     outline: none;
-    z-index: var(--z-index-1);
+    z-index: 1;
 }
 .btn-close:focus{
     box-shadow: 0 0 0 2px black;
