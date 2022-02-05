@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Lato&family=Lobster&family=Poppins:wght@300&family=Quintessential&family=Roboto:wght@300;400&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  border-radius: var(--BORDER_RADIUS);
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* flex-properties */
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.f-col {
+  flex-direction: column;
+}
+.flex-centre {
+  align-items: center;
+  justify-content: center;
+}
+.f-end {
+  justify-content: flex-end;
+}
+
+/* margins */
+.mg-16 {
+  margin: 16px 0;
+}
+.mg-top20 {
+  margin-top: 20px;
+}
+.mg-top40 {
+  margin-top: 40px;
+}
+.postion {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.bg {
+  background-color: transparent;
+}
+
+/* typography: fonts */
+.main-heading {
+  margin-top: 100px;
+  text-align: center;
+}
+.main-heading-logo {
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+}
+.main-heading-title {
+    font-family: 'Headland One', serif;
+  font-size: var(--title);
+  font-weight: 500;
+  color: var(--SECONDARY-S1);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.main-heading-subtitle {
+  font-family: "Recoleta-light";
+  font-size: var(--subtitle);
+  font-weight: 400;
+  color: var(--sec-dark-purple);
+  text-align: center;
+}
+/* side-navbar */
+.component-navbar-heading {
+  font-size: var(--side-navbar-heading);
+  color: var(--sec-dark-purple);
+  font-family: 'Headland One', serif;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+/* documentation-style */
+.doc {
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: stretch;
+  column-gap: 8px;
+}
+.component-doc {
+  width: 42%;
+}
+.comp-main-heading {
+    font-size: 2.5rem;
+    color: var(--PRIMARY-P1);
+}
+.comp-main-subheading {
+    margin: 5px 0px;
+    font-size: 1.5rem;
+    font-family: "sofia-pro",sans-serif;
+    color: var(--SECONDARY-S2);
+}
+.comp-doc-p {
+  font-size: 1.2rem;
+}
+
+/* iframes */
+.iframe-wrapper {
+  overflow: auto;
+  width: 100%;
+  margin: 3rem auto 4rem auto;
+  padding-top: 1rem;
+  background: var(--CARBON);
+  text-align: center;
+}
+.iframe-wrapper code iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .component-doc {
+    margin: 20px;
+    white-space: normal;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .component-doc {
+    margin: 10px;
+    white-space: normal;
+    width: 95%;
+  }
+}
