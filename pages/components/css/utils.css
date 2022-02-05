@@ -110,6 +110,15 @@
   font-size: 1.2rem;
 }
 
+.component-wrapper {
+  margin: 2.5rem 0;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 5px;
+  max-width: var(--padding-act-comp-box);
+  background-color: var(--BG-PRIMARY);
+}
+
 /* iframes */
 .iframe-wrapper {
   overflow: auto;
