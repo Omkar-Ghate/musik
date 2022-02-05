@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+        integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header  navbar-->
+    <nav class="navbar flex flex-nowrap sticky">
+        <a href="#">
+            <div class="navbar-logo flex flex-center">
+                <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+            </div>
+        </a>
+
+        <ol class="navbar-list">
+            <li>
+                <a href="#" class="navbar-list-item">Home</a>
+            </li>
+            <li>
+                <a href="#" class="navbar-list-item">Documentation</a>
+            </li>
+            <li>
+                <a href="https://github.com/Omkar-Ghate" class="navbar-list-item icons">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/omkarghate/" class="navbar-list-item icons">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/OmkarGhate9" class="navbar-list-item icons">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="navbar-list-item icons">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- documentation page  -->
+    <section class="doc flex ">
+
+        <!-- sidebar -->
+        <section class="component-navbar ">
+            <div class="sidebar">
+                <h1 class="component-navbar-heading">Getting Started</h1>
+                <a href="#">
+                    <li class="component-navbar-item">Usage</li>
+                </a>
+                <h1 class="component-navbar-heading">Components</h1>
+                <ul>
+                    <a href="../avatar/avatar.html">
+                        <li class="component-navbar-item">Avatar</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Badge</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Alert</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Button</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Card</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Images</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Input</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+
+        <!-- centre documentation -->
+        <section class="component-doc ">
+            <h1 class="comp-main-heading component-navbar-heading">Badge</h1>
+            <p class="comp-doc-p">Badges are being used to display a notification count or status information</p>
+            <h1 id="status-badge" class="comp-main-subheading">Status Badges</h1>
+            <p class="comp-doc-p">We have 2 types of status badges that can be integrated with Avatars. You can show
+                colors to show the online status of user. And to show cart or notification count, you can use number
+                badge.</p>
+
+            <!-- status-badges -->
+            <div class="component-avatar flex flex-wrap flex-centre">
+                <div class="avatar avatar-xl avatar-txt">
+                    <img src="../../../assets/images/avatar1.svg" alt="" />
+                    <i class="avatar-badge bd-left bd-xl bd-red"></i>
+                </div>
+                <div class="avatar avatar-xl avatar-txt">
+                    <img src="../../../assets/images/avatar2.svg" alt="" />
+                    <i class="avatar-badge bd-right bd-xl bd-green"></i>
+                </div>
+                <div class="avatar avatar-l avatar-txt">
+                    <img src="../../../assets/images/avatar3.svg" alt="" />
+                    <i class="avatar-badge bd-left bd-l bd-red"></i>
+                </div>
+                <div class="avatar avatar-l avatar-txt">
+                    <img src="../../../assets/images/avatar1.svg" alt="" />
+                    <i class="avatar-badge bd-right bd-l bd-green"></i>
+                </div>
+                <div class="avatar avatar-md avatar-txt">
+                    <img src="../../../assets/images/avatar2.svg" alt="" />
+                    <i class="avatar-badge bd-left bd-m bd-red"></i>
+                </div>
+            </div>
+
+            <!-- code-snippet  -->
+            <div class="iframe-wrapper">
+                <code>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%2522%2520alt%253D%2522..%2522%2520%252F%253E%250A%2520%2520%252F%252F%2520Left%2520position%2520%257C%2520XL%2520size%2520%257C%2520Red%2520color%250A%2520%2520%253Ci%2520class%253D%2522avatar-badge%2520bd-left%2520bd-xl%2520bd-red%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522..%2522%2520alt%253D%2522..%2522%2520%252F%253E%250A%2520%2520%252F%252F%2520Right%2520position%2520%257C%2520MD%2520size%2520%257C%2520Green%2520color%250A%2520%2520%253Ci%2520class%253D%2522avatar-badge%2520bd-left%2520bd-xl%2520bd-green%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%2520%2520"
+                        style="width: 100%; height: 281px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+
+            <h1 id="status-badge-w-icon" class="comp-main-subheading">Status Badges with Icons</h1>
+            <p class="comp-doc-p">To show cart or notification count, you can use the status badge with icons.</p>
+
+            <!-- status-badges-w-icon -->
+            <div class="component-avatar flex flex-wrap flex-centre">
+                <div class="avatar-icon avatar-xl">
+                    <img src="../../../assets/images/cart.svg" alt="" />
+                    <i class="avatar-badge bd-num bd-red">4</i>
+                </div>
+                <div class="avatar-icon avatar-l">
+                    <img src="../../../assets/images/download.svg" alt="" />
+                    <i class="avatar-badge bd-num bd-gray">3</i>
+                </div>
+                <div class="avatar-icon avatar-l">
+                    <img src="../../../assets/images/address-book.svg" alt="" />
+                    <i class="avatar-badge bd-num bd-green">7</i>
+                </div>
+            </div>
+
+            <!-- code-snippet  -->
+            <div class="iframe-wrapper">
+                <code><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520XL%2520Size%2520%257C%2520Red%2520color%250A%253Cdiv%2520class%253D%2522avatar-icon%2520avatar-xl%2522%253E%250A%253Cimg%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%252F%252F%2520Top-Right%2520position%2520%257C%2520XL%2520Size%2520%257C%2520Red%2520color%250A%253Ci%2520class%253D%2522avatar-badge%2520bd-num%2520bd-red%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252F%2520L%2520size%2520%257C%2520Red%2520color%250A%253Cdiv%2520class%253D%2522avatar-icon%2520avatar-l%2522%253E%250A%253Cimg%2520src%253D%2522..%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Ci%2520class%253D%2522avatar-badge%2520bd-num%2520bd-red%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 100%; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
+
+            <h1 id="text-badge" class="comp-main-subheading">Text Badges</h1>
+            <p class="comp-doc-p">Badges are used to highlight an item's status for quick recognition.</p>
+            <div class="component-avatar flex flex-wrap flex-centre">
+                <span class="badge badge-success">Success</span>
+                <span class="badge badge-error">Error</span>
+                <span class="badge badge-warning">Warning</span>
+                <span class="badge badge-info">Info</span>
+            </div>
+
+            <!-- code-snippet  -->
+            <div class="iframe-wrapper">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge%2520badge-success%2522%253ESuccess%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-error%2522%253EError%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-warning%2522%253EWarning%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-info%2522%253EInfo%253C%252Fspan%253E"
+                    style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
+
+
+            <!-- prev-next btns  -->
+            <div class="next-prev-btns flex ">
+                <a href="../avatar/avatar.html">
+                    <button class="btn btn-footer">
+                        <i class="fas fa-angle-left"></i> Avatar
+                    </button>
+                </a>
+                <a href="#">
+                    <button class="btn btn-footer">Alert <i class="fas fa-angle-right"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <!-- on this page  -->
+        <section class="on-this-page flex f-end flex-nowrap">
+            <div class="on-this-page-bar ">
+                <h1 class="component-navbar-heading">On this page</h1>
+                <a href="#status-badge">
+                    <li class="component-navbar-item">Status Badge</li>
+                </a>
+                <a href="#status-badge-w-icon">
+                    <li class="component-navbar-item">Status Badge with Icon</li>
+                </a>
+                <a href="#text-badge">
+                    <li class="component-navbar-item">Text Badge</li>
+                </a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
