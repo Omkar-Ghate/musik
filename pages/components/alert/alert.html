@@ -100,38 +100,33 @@
 
         <!-- centre documentation -->
         <section class="component-doc ">
-            <h1 id="profile-avatar" class="comp-main-heading component-navbar-heading">Avatars</h1>
-            <h1 id="profile-avatar" class="comp-main-subheading">Profile Avatars</h1>
-            <p class="comp-doc-p">The Profile Avatar has 4 sizes: avatar-xl (5.5rem), avatar-l (4.5rem), avatar-md
-                (4rem), and avatar-s (3rem).</p>
+            <h1 id="#" class="comp-main-heading component-navbar-heading">Alerts</h1>
+            <p class="comp-doc-p">Alerts are used to attract user's attention for important information without
+                interrupting the user's flow.</p>
 
-            <!-- standard-avatar -->
-            <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar avatar-xl"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-                <div class="avatar avatar-l"><img src="../../../assets/images/avatar2.svg" alt="" /></div>
-                <div class="avatar avatar-md"><img src="../../../assets/images/avatar3.svg" alt="" /></div>
-                <div class="avatar avatar-s"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-            </div>
-
-            <div class="iframe-wrapper">
-                <code>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-s%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E"
-                        style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
-            </div>
-
-            <!-- square-avatar -->
-            <h1 id="square-avatar" class="comp-main-subheading">Square Avatars</h1>
-            <p class="comp-doc-p">Similar to the Profile Avatar, but with a different shape:</p>
+            <!-- alert-bar-without-close-button -->
+            <h1 id="#" class="comp-main-subheading">Alert bar without close button</h1>
+            <p class="comp-doc-p">Alerts are available in 5 types- success alert, error alert, warning alert, primary
+                alert, secondary alert.
+                To use this alert just use class name alert-box and also add class according to alert type-
+                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
+                alert-primary").</p>
 
             <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar-sq avatar-xl"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-                <div class="avatar-sq avatar-l"><img src="../../../assets/images/avatar2.svg" alt="" /></div>
-                <div class="avatar-sq avatar-md"><img src="../../../assets/images/avatar3.svg" alt="" /></div>
-                <div class="avatar-sq avatar-s"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
+                <div class="alert-box alert-primary">A primary alert example with a text link <a
+                        class="link-text link-text-primary">Check it out!</a>
+                </div>
+                <div class="alert-box alert-secondary">A secondary alert example!!!!
+                </div>
+                <div class="alert-box alert-success"><span class="alert-icon"><i
+                            class="fas fa-check-circle"></i></span>A success alert example!!!!
+                </div>
+                <div class="alert-box alert-danger"><span class="alert-icon"><i class="fas fa-exclamation-triangle"></i>
+                    </span>A danger alert example!!!!
+                </div>
+                <div class="alert-box alert-warning"><span class="alert-icon"><i
+                            class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                </div>
             </div>
 
             <div class="iframe-wrapper">
@@ -143,27 +138,17 @@
                 </code>
             </div>
 
-            <!-- text-avatar -->
-            <h1 id="text-avatar" class="comp-main-subheading">Text Avatars</h1>
-            <p class="comp-doc-p">It can be Profile or Square. 3 variants are available: </p>
-
+            <h1 id="#" class="comp-main-subheading">Alert bar with close button</h1>
+            <p class="comp-doc-p">Alert can have cross icon to close the alert. Check out html and vanilla JS code
+                below.</p>
             <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar avatar-xl avatar-txt v1">
-                    <h2>OG</h2>
-                </div>
-                <div class="avatar avatar-l avatar-txt v2">
-                    <h2>VK</h2>
-                </div>
-                <div class="avatar avatar-md avatar-txt v3">
-                    <h2>SN</h2>
+                <div class="alert-box alert-warning" id="alert-example-close">
+                    <span class="alert-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span> A warning alert example!!!
+                    <button type="button" class="btn-close" id="alert-example-close-btn"></button>
                 </div>
             </div>
-
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-txt%2520v1%2522%253E%2520%253Ch2%253EOG%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2520avatar-txt%2520v2%2522%253E%2520%253Ch2%253EVK%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-txt%2520v3%2522%253E%2520%253Ch2%253ESN%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A"
-                style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
 
             <!-- prev-next btns  -->
             <div class="next-prev-btns flex ">
