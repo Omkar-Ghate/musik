@@ -58,7 +58,7 @@
     margin: 10px;
     padding: 8px 16px;
     border: none; 
-    font-size: var(--side-navbar-subheading);
+    /* font-size: var(--side-navbar-subheading); */
     font-family: "sofia-pro";
     font-weight: bold; 
 }
