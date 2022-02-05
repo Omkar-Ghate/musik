@@ -6,12 +6,13 @@
     --SECONDARY-S2: #585c97;
     --SECONDARY-S3: #222069;
 
-    --BG-PRIMARY: #f3d7d5;
+    --COMPLIMENTARY: #eff0f8;
+    --BG-PRIMARY: #f7edecdb;
 
-    --DANGER: red;
+    --DANGER: rgb(221, 11, 11);
     --WARNING: rgb(204, 129, 60);
     --INFO: rgb(77, 77, 235);
-    --SAFE: rgb(136, 185, 38);
+    --SAFE: rgb(103, 136, 38);
     
 
     --BORDER_RADIUS: 8px;

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../styles.css">
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+        integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header  navbar-->
+    <nav class="navbar flex flex-nowrap sticky">
+        <a href="#">
+            <div class="navbar-logo flex flex-center">
+                <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+            </div>
+        </a>
+
+        <ol class="navbar-list">
+            <li>
+                <a href="#" class="navbar-list-item">Home</a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item">Documentation</a>
+            </li>
+
+            <li>
+                <a href="https://github.com/Omkar-Ghate" class="navbar-list-item icons">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/omkarghate/" class="navbar-list-item icons">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/OmkarGhate9" class="navbar-list-item icons">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item icons">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+
+        </ol>
+    </nav>
+
+
+
+    <!-- documentation page  -->
+    <section class="doc flex ">
+
+        <!-- sidebar -->
+        <section class="component-navbar ">
+            <div class="sidebar">
+                <h1 class="component-navbar-heading">Getting Started</h1>
+                <a href="#">
+                    <li class="component-navbar-item">Usage</li>
+                </a>
+
+                <h1 class="component-navbar-heading">Components</h1>
+                <ul>
+                    <a href="#">
+                        <li class="component-navbar-item">Avatar</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Badge</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Alert</li>
+                    </a>
+                    <a href="../button/button.html">
+                        <li class="component-navbar-item">Button</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Card</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Images</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">Input</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+
+        <!-- centre documentation -->
+        <section class="component-doc ">
+            <h1 id="#" class="comp-main-heading component-navbar-heading">Alerts</h1>
+            <p class="comp-doc-p">Alerts are used to attract user's attention for important information without
+                interrupting the user's flow.</p>
+
+            <!-- alert-bar-without-close-button -->
+            <h1 id="alert-wo-close" class="comp-main-subheading">Alert bar without close button</h1>
+            <p class="comp-doc-p">Alerts are available in 5 types- success alert, error alert, warning alert, primary
+                alert, secondary alert.
+                To use this alert just use class name alert-box and also add class according to alert type-
+                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
+                alert-primary").</p>
+
+            <div class="component-wrapper flex flex-wrap flex-centre">
+                <div class="alert-box alert-primary">A primary alert example!!!!
+                </div>
+                <div class="alert-box alert-secondary">A secondary alert example!!!!
+                </div>
+                <div class="alert-box alert-success"><span class="alert-icon"><i
+                            class="fas fa-check-circle"></i></span>A success alert example!!!!
+                </div>
+                <div class="alert-box alert-danger"><span class="alert-icon"><i class="fas fa-exclamation-triangle"></i>
+                    </span>A danger alert example!!!!
+                </div>
+                <div class="alert-box alert-warning"><span class="alert-icon"><i
+                            class="fas fa-exclamation-triangle"></i></span> A warning alert example!!!
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <code><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-primary%2522%253E%250A%2509A%2520primary%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-secondary%2522%253E%250A%2509A%2520secondary%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-success%2522%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2509A%2520success%2520alert%2520example%253A%2520order%2520placed%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-danger%2522%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%250A%2509A%2520danger%2520alert%2520example%253A%2520Are%2520you%2520sure%2520to%2520delete%2520permanently%253F%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%253E%250A%2509%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2509A%2520warning%2520alert%2520example%253A%2520Fill%2520all%2520the%2520fields%21%21%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 393px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
+
+            <h1 id="alert-w-close" class="comp-main-subheading">Alert bar with close button</h1>
+            <p class="comp-doc-p">Alert can have cross icon to close the alert.</p>
+            <div class="component-wrapper flex flex-wrap flex-centre">
+                <div class="alert-box alert-warning">
+                    <span class="alert-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </span> A warning alert example!!!
+                    <button type="button" class="btn-close"></button>
+                </div>
+            </div>
+
+            <div class="iframe-wrapper">
+                <code><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-box%2520alert-warning%2522%2520id%253D%2522alert-example-close%2522%253E%250A%2509%253Cspan%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2509%253C%252Fspan%253E%2520%250A%2520%2520%2509A%2520warning%2520alert%2520example%21%21%21%250A%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn-close%2522%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 188px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
+
+            <!-- prev-next btns  -->
+            <div class="next-prev-btns flex ">
+                <a href="#">
+                    <button class="btn btn-footer">
+                        <i class="fas fa-angle-left"></i> Badge
+                    </button>
+                </a>
+                <a href="../button/button.html">
+                    <button class="btn btn-footer">Button <i class="fas fa-angle-right"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <!-- on this page  -->
+        <section class="on-this-page flex f-end flex-nowrap">
+            <div class="on-this-page-bar ">
+                <h1 class="component-navbar-heading">On This Page</h1>
+                <a href="#alert-wo-close">
+                    <li class="component-navbar-item">Alert without close button</li>
+                </a>
+                <a href="#alert-w-close">
+                    <li class="component-navbar-item">Alert with close button</li>
+                </a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
