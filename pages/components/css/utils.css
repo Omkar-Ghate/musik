@@ -29,6 +29,9 @@
 .f-end {
   justify-content: flex-end;
 }
+.flex-items {
+  margin: 2px;
+}
 
 /* margins */
 .mg-16 {
