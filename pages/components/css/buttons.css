@@ -1,0 +1,68 @@
+.btn-div{
+    margin-top: 10px;
+}
+.btn{
+    background-color: var(--lightmode-bg-color);
+    padding: 8px 16px;
+    font-size: var(--cta-btn-font-size);
+    border: none;
+    box-shadow: var(--btn-box-shadow);
+    margin-left: 10px;
+    color: var(--lightmode-bg-color);
+}
+.btn-link {
+    color: var(--primary-yellow);
+}
+.solid-pri-btn{
+    background-color: var(--primary-yellow);
+    color: var(--lightmode-bg-color);
+}
+.solid-sec-btn{
+    background-color:var(--sec-light-purple);
+}
+.solid-delete-btn{
+    background-color: #ef4444;  
+}
+.btn:hover{
+    box-shadow: var(--btn-box-shadow-onhover);
+}
+.btn-pri-outlined{
+    
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+}
+.btn-sec-outlined{
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+}
+.btn-del-outlined{
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+.Icon{
+    background-color: transparent;
+}
+.Floating-btn{
+    width: 50px;
+    height: 50px;
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+    border-radius: 50%;
+
+}
+
+/* next-btn  */
+.btn-footer {
+    margin: 10px;
+    padding: 8px 16px;
+    border: none; 
+    /* font-size: var(--side-navbar-subheading); */
+    font-family: "sofia-pro";
+    font-weight: bold; 
+}
+.next-prev-btns {
+    justify-content: space-between;
+}
+.btn-footer:hover {
+    background-color: var(--PRIMARY-P3);
+}
