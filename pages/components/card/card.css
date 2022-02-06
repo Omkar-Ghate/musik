@@ -77,7 +77,7 @@
 }
 
 .text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6,.text-container p{
-    margin: 0px;
+    margin: 0;
     margin-bottom: 4px;
 }
 
