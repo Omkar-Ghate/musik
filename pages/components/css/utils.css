@@ -154,13 +154,13 @@ p, .p{
   font-size: 0.875rem;
 }
 .text-mark{
-  background-color: var(--dark-secondary-color);
+  background-color: var(--SECONDARY-S1);
 }
 .primary-text-color{
-  color: var(--primary-color);
+  color: var(--PRIMARY-P1);
 }
 .secondary-text-color{
-  color: var(--secondary-text-color);
+  color: var(--SECONDARY-S1);
 }
 .tertiary-text-color{
   color:#282c3f;
