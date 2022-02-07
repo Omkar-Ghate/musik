@@ -1,0 +1,126 @@
+.textbox {
+    border: 2px solid var(--SECONDARY-S2);
+    padding: 10px;
+    font-size: 1rem;
+    resize: none;
+}
+/* input */
+.input {
+	border: 0;
+	padding: 12px;
+	border-bottom: 2px solid;
+}
+.input-outlined {
+	border-radius: 5px;
+	border: 2px solid;
+}
+.input-filled {
+	background-color: var(--COMPLIMENTARY);
+}
+.input-standard, .input-filled{
+    border-radius: 0;
+}
+.input:focus {
+	outline: none;
+	border-color: var(--PRIMARY-P1);
+}
+.input-container {
+	display: flex;
+	flex-direction: column;
+}
+.label {
+	width: fit-content;
+	position: relative;
+	top: 2px;
+	padding: 0 2px;
+	font-size: 1.2rem;
+	color: var(--PRIMARY-P1);
+}
+.input-error,
+.input-error:focus {
+	border-color: var(--DANGER);
+}
+.input-required:invalid {
+	border-color: var(--DANGER);
+}
+.input-required:valid {
+	border-color: var(--SAFE);
+}
+
+/* form-validation */
+.form-label{
+    display: inline-block;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-family: var(--DOC-DESCRIPTION);
+}
+.form-label-required-field:after{
+    content: "*";
+    color: var(--DANGER);
+}
+.form-field{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border: 1px solid #d4d5d9;
+    border-radius: 5px;
+    line-height: 1.5;
+    outline: none;
+    box-sizing: border-box;
+}
+.form-field-sm{
+    padding: 2px;
+}
+.form-field:focus{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.form-field:disabled{
+    background-color: #e9ecef;
+}
+.form-field-plain-text:read-only{
+    border: none;
+    background-color: transparent;
+}
+.form-validation-msg{
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 21px;
+    display: none;
+}
+.form-field-error{
+    color: var(--DANGER);
+}
+.form-field-success{
+    color: var(--SAFE);
+}
+.form-field-symbol{
+    padding-right: 4px;
+}
+.form-validated :invalid~.form-field-error{
+    display: block;
+}
+.form-validated :valid~.form-field-success{
+    display: block;
+}
+.form-checkbox-field{
+    width: 1rem;
+    height: 1rem;
+    outline: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
+}
+.form-checkbox-field:focus{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.form-checkbox-field:focus-within{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.submit-form-example{
+    width: 100%;
+}
+select.form-field option{
+    margin: 1rem;
+}

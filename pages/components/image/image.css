@@ -1,0 +1,10 @@
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.img-round{
+    width:10rem;
+    height: 10rem;
+    background-color: var(--PRIMARY-P3);
+    border-radius: 50%;
+}

@@ -80,7 +80,6 @@
   color: var(--sec-dark-purple);
   text-align: center;
 }
-
 .h1, h1{
   font-size: 2.5rem;
 }
@@ -154,16 +153,25 @@ p, .p{
   font-size: 0.875rem;
 }
 .text-mark{
-  background-color: var(--dark-secondary-color);
+  background-color: var(--SECONDARY-S1);
 }
 .primary-text-color{
-  color: var(--primary-color);
+  color: var(--PRIMARY-P1);
 }
 .secondary-text-color{
-  color: var(--secondary-text-color);
+  color: var(--SECONDARY-S1);
 }
 .tertiary-text-color{
   color:#282c3f;
+}
+.safe-text-color {
+  color: var(--SAFE);
+}
+.danger-text-color {
+  color: var(--DANGER);
+}
+.warning-text-color {
+  color: var(--WARNING);
 }
 .padding-around-span{
   padding-left: 0.5rem;
@@ -219,12 +227,13 @@ p, .p{
     color: var(--SECONDARY-S2);
 }
 .comp-doc-p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: var(--DOC-DESCRIPTION);
 }
 
 .component-wrapper {
   margin: 2.5rem 0;
-  padding: 20px;
+  padding: 1.2rem;
   gap: 10px;
   border-radius: 5px;
   max-width: var(--padding-act-comp-box);

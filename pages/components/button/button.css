@@ -49,7 +49,7 @@ button.link-no-style{
 /* outline style buttons */
 .btn-outline-primary{
     border: 1px solid var(--PRIMARY-P3);
-    color: var(--primary-color);
+    color: var(--PRIMARY-P1);
 }
 .btn-outline-primary:hover{
     border: 1px solid var(--PRIMARY-P1);
