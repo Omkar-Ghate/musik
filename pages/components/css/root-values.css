@@ -16,7 +16,9 @@
     --INFO: rgb(77, 77, 235);
     --SAFE: rgb(103, 136, 38);
     
-
+    --RATING-STAR-ICON: rgba(0, 0, 0, 0.26);
+    --RATING-STAR-ENABLED: #ffd675;
+    --RATING-STAR-CHECKED: #ffb400;
     --BORDER_RADIUS: 8px;
     
     --navbar20:1.25rem;

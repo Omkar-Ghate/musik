@@ -1,6 +1,6 @@
 
 .rating-star-icon{
-    color: rgba(0, 0, 0, 0.26);
+    color: var(--RATING-STAR-ICON);
 }
 
 .rating-star-input:enabled .rating-star-icon{
@@ -8,7 +8,7 @@
 }
 
 .rating-star-input:enabled + .rating-star-icon:hover{
-    color: #ffd675;
+    color: var(--RATING-STAR-ENABLED);
 }
 
 .rating-star-input{
@@ -19,7 +19,7 @@
 }
 
 .rating-star-input:checked + .rating-star-icon{
-    color: #ffb400;
+    color: var(--RATING-STAR-CHECKED);
 }
 
 .rating-badge{
@@ -37,7 +37,7 @@
     margin-right: 0.2rem;
 }
 .rating-badge-star{  
-    color: #ffb400;
+    color: var(--RATING-STAR-CHECKED);
     width: 0.75rem;
     height: 0.75rem;
     margin-right: 0.2rem;
