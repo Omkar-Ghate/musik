@@ -4,8 +4,8 @@
 }
 .main-heading-logo {
   background-repeat: no-repeat;
-  width: 70px;
-  height: 70px;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .main-heading-title {
   font-family: "Headland One", serif;
@@ -63,10 +63,10 @@ p,
   font-size: 1rem;
 }
 .body-cp-md {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .body-cp-sm {
-  font-size: 12pxrem;
+  font-size: 0.75rem;
 }
 
 .text-center {
@@ -102,7 +102,7 @@ p,
   font-weight: 500;
 }
 .text-small-size {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .text-mark {
   background-color: var(--PRIMARY-P3);

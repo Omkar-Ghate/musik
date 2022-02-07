@@ -174,8 +174,8 @@ p, .p{
   color: var(--WARNING);
 }
 .padding-around-span{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 @media screen and (max-width: 768px){
@@ -270,7 +270,7 @@ p, .p{
   font-family: var(--DOC-DESCRIPTION);
 }
 .styled-list li:not(:last-child){
-  padding-bottom: 0.625rem;
+  padding-bottom: 10px;
 }
 .list-style-circle{
   list-style-type: circle;
@@ -291,12 +291,12 @@ p, .p{
   list-style-type:upper-roman;
 }
 .list-container{
-  border-radius: 0.3rem;
+  border-radius: 5px;
   background-color: #f7f5f5;
-  padding: 1rem 32px 1rem 40px;
+  padding: 1rem 2rem 1rem 2.5rem;
 }
 .list-style-none.list-container{
-  padding-inline-start: 32px;
+  padding-inline-start: 2rem;
 }
 
 .stacked-list{
@@ -311,7 +311,7 @@ p, .p{
 }
 
 .nested-list{
-  margin-top: 0.5rem;
+  margin-top: 8px;
 }
 
 /* responsive-images */
