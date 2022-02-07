@@ -4,7 +4,7 @@
   padding: 0px;
   border-radius: var(--BORDER_RADIUS);
   text-decoration: none;
-  list-style: none;
+  /* list-style: none; */
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -204,6 +204,9 @@ p, .p{
   font-family: 'Headland One', serif;
   font-weight: 400;
   margin-bottom: 8px;
+}
+.component-navbar-item {
+  list-style: none;
 }
 
 /* documentation-style */
