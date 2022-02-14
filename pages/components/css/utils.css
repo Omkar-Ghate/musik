@@ -103,7 +103,9 @@ p, .p{
   margin: 10px 0;
   line-height: 1.5;
 }
-
+.display-inline {
+  display: inline;
+}
 .body-cp-lg{
   font-size: 1.5rem;
 }

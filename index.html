@@ -10,31 +10,38 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <title>mUsIk</title>
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
+        integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <nav class="navbar flex flex-nowrap sticky">
         <a href="#">
-            <div class="navbar-logo"></div>
+            <div class="navbar-logo flex flex-center">
+                <h1>m<strong>U</strong>s<strong>I</strong>k</h1>
+            </div>
         </a>
-        
+
         <ol class="navbar-list">
             <li>
                 <a href="index.html" class="navbar-list-item">Home</a>
             </li>
 
             <li>
-                <a href="#" class="navbar-list-item">Documentation</a>
+                <a href="./pages/getting-started/usage/usage.html" class="navbar-list-item">Documentation</a>
             </li>
 
-            <li >
+            <li>
                 <a href="https://github.com/Omkar-Ghate" class="navbar-list-item icons">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
 
-            <li >
-                <a href="https://www.linkedin.com/in/omkarghate/" class="navbar-list-item icons"> 
+            <li>
+                <a href="https://www.linkedin.com/in/omkarghate/" class="navbar-list-item icons">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
@@ -55,18 +62,74 @@
     </nav>
 
     <main>
-        <div class="head">
-            Design your dream project better and faster. 
+        <div class="spacer-2rem"></div>
+        <div class="grid-50-50-layout">
+            <div class="text-container">
+                <h1>Build Your UI Faster</h1>
+                <p class="body-cp-lg">m<strong class="logo-sm">U</strong>s<strong class="logo-sm">I</strong>k
+                helps you to quickly build your Dream Project, by focusing much on
+                    Functionality, because we take care of your Designs.</p>
+                <div class="CTA-Container">
+                    <a href="#Installation" class="btn btn-solid-primary">Installation</a>
+                    <a href="./pages/getting-started/usage/usage.html" class="btn btn-outline-secondary">Documentation</a>
+                </div>
+            </div>
+
+            <div>
+                <img class="img-responsive" src="./assets/images/login-page.svg">
+            </div>
         </div>
-        <div class="subhead">
-            MUSIK is a CSS library, integrated with pre-defined styled classes, and Utilites, for a quick creation of websites, with much focus on Functionality. 
+
+        <div class="spacer-2rem"></div>
+        <div class="spacer-2rem"></div>
+
+        <div class="grid-50-50-layout" id="installation">
+            <div class="display-flex vertical-middle">
+
+                <div class="code-snippet-display">
+                    <code><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmusik-cl.netlify.app%252Fstyles.css%2522%253E%250A"
+                        style="width: 100%; height: 113px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                        </code>
+                </div>
+            </div>
+
+            <div class="text-container" id="Installation">
+                <h2>Installation</h2>
+                <p class="body-cp-rg">In order to introduce m<strong class="logo-xs">U</strong>s<strong class="logo-xs">I</strong>k to your project, copy the Link given in the left frame and paste
+                    it in the &lthead&gt
+
+                    tag of your html, above all other style sheets.
+                        To know about the styled components, their variations, read the documentation.
+                </p>
+                <div class="CTA-Container">
+                    <a href="./pages/getting-started/usage/usage.html" class="btn btn-solid-primary">Documentation</a>
+                </div>
+            </div>
+
         </div>
-        <div class="twin-button">
-            <a href="#" class="btn btn-primary">
-                Get Started
-            </a>
-            <a href="#" target="_blank" class="btn btn-secondary">GitHub</a>
-        </div>
+
+        <div class="spacer-2rem"></div>
+        <div class="spacer-2rem"></div>
+
+        <footer class="footer text-center">
+            <div class="footer-header">Made with <span class="primary-text-color">&lt;/&gt;</span> by Omkar Ghate</div>
+            <ul class="inline-list list-style-none footer-social-icons">
+                <li class="list-inline-item"><a class="link-no-style" href="https://github.com/Omkar-Ghate"><i
+                            class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a class="link-no-style" href="https://twitter.com/OmkarGhate9"><i
+                            class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a class="link-no-style" href="https://www.linkedin.com/in/omkarghate/"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+            <div class="text-light-weight body-cp-md footer-copy">
+                <h4>m<strong>U</strong>s<strong>I</strong>k
+                </h4>
+            </div>
+        </footer>
     </main>
 
 </body>
