@@ -1,4 +1,3 @@
-@import url(./pages/components/css/navbar.css);
 @import url(./pages/components/css/buttons.css);
 @import url(./pages/components/css/utils.css);
 @import url(./pages/components/avatar/avatar.css);
@@ -13,3 +12,5 @@
 @import url(./pages/components/list/list.css);
 @import url(./pages/components/rating/rating.css);
 @import url(./landing-page.css);
+@import url(./pages/components/css/navbar.css);
+/* @import url(./pages/components/test/test.css); */
