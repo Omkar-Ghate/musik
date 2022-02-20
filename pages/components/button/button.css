@@ -158,6 +158,10 @@ button.link-no-style{
     border-radius: 50%;
     color:var(--COMPLIMENTARY);
     background-color: var(--PRIMARY-P1);
+    z-index: 3;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
 }
 
 /* toggle button */
