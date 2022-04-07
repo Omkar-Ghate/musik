@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avatar</title>
+    <title>Image</title>
     <link rel="stylesheet" href="../../../styles.css">
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css"
         integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- header navbar-->
     <nav class="navbar flex flex-nowrap sticky">
@@ -25,33 +26,38 @@
             <li>
                 <a href="../../../index.html" class="navbar-list-item">Home</a>
             </li>
+
             <li>
                 <a href="#" class="navbar-list-item">Documentation</a>
             </li>
+
             <li>
                 <a href="https://github.com/Omkar-Ghate" class="navbar-list-item icons">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
+
             <li>
                 <a href="https://www.linkedin.com/in/omkarghate/" class="navbar-list-item icons">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
+
             <li>
                 <a href="https://twitter.com/OmkarGhate9" class="navbar-list-item icons">
                     <i class="fab fa-twitter"></i>
                 </a>
             </li>
+
             <li>
                 <a href="#" class="navbar-list-item icons">
                     <i class="fas fa-moon"></i>
                 </a>
             </li>
+
         </ol>
     </nav>
 
-    
     <!-- phone navbar  -->
     <nav class="phone-navbar sticky flex flex-centre">
         <a href="#">
@@ -97,7 +103,7 @@
 
             <a href="#" class="comp-main-subheading">Components</a>
 
-            <a href="#">
+            <a href="../avatar/avatar.html">
                 <li class="component-navbar-item">Avatar</li>
             </a>
             <a href="../badge/badge.html">
@@ -132,6 +138,7 @@
 
     <!-- documentation page  -->
     <section class="doc flex ">
+
         <!-- sidebar -->
         <section class="component-navbar ">
             <div class="sidebar">
@@ -139,9 +146,10 @@
                 <a href="../../getting-started/usage/usage.html">
                     <li class="component-navbar-item">Usage</li>
                 </a>
+
                 <h1 class="component-navbar-heading">Components</h1>
                 <ul>
-                    <a href="#">
+                    <a href="../avatar/avatar.html">
                         <li class="component-navbar-item">Avatar</li>
                     </a>
                     <a href="../badge/badge.html">
@@ -156,7 +164,7 @@
                     <a href="../card/card.html">
                         <li class="component-navbar-item">Card</li>
                     </a>
-                    <a href="../image/image.html">
+                    <a href="#">
                         <li class="component-navbar-item">Images</li>
                     </a>
                     <a href="../input/input.html">
@@ -177,80 +185,52 @@
 
         <!-- centre documentation -->
         <section class="component-doc ">
-            <h1 id="profile-avatar" class="comp-main-heading component-navbar-heading">Avatars</h1>
-            <h1 id="profile-avatar" class="comp-main-subheading">Profile Avatars</h1>
-            <p class="comp-doc-p">The Profile Avatar has 4 sizes: avatar-xl (5.5rem), avatar-l (4.5rem), avatar-md
-                (4rem), and avatar-s (3rem).</p>
+            <h1 id="#" class="comp-main-heading component-navbar-heading">Images</h1>
+            <p class="comp-doc-p">Images can be responsive to fit the parent's width, and also can be customised to be round shaped</p>
 
-            <!-- standard-avatar -->
-            <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar avatar-xl"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-                <div class="avatar avatar-l"><img src="../../../assets/images/avatar2.svg" alt="" /></div>
-                <div class="avatar avatar-md"><img src="../../../assets/images/avatar3.svg" alt="" /></div>
-                <div class="avatar avatar-s"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-            </div>
+            <!-- responsive-image -->
+            <h1 id="responsive-image" class="comp-main-subheading">Responsive Image</h1>
+            <p class="comp-doc-p">You can add class <span class="primary-text-color">img-responsive </span>  to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image.
+            </p>
 
-            <div class="iframe-wrapper">
-                <code>
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-s%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%2520%253C%252Fdiv%253E"
-                        style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
-            </div>
-
-            <!-- square-avatar -->
-            <h1 id="square-avatar" class="comp-main-subheading">Square Avatars</h1>
-            <p class="comp-doc-p">Similar to the Profile Avatar, but with a different shape:</p>
-
-            <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar-sq avatar-xl"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
-                <div class="avatar-sq avatar-l"><img src="../../../assets/images/avatar2.svg" alt="" /></div>
-                <div class="avatar-sq avatar-md"><img src="../../../assets/images/avatar3.svg" alt="" /></div>
-                <div class="avatar-sq avatar-s"><img src="../../../assets/images/avatar1.svg" alt="" /></div>
+            <div class="component-wrapper flex flex-wrap flex-centre">
+                <img loading="lazy" class="img-responsive" src="../../../assets/images/responsive-img.jpg">
             </div>
 
             <div class="iframe-wrapper">
                 <code><iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-sq%2520avatar-xl%2522%253E%2520%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-sq%2520avatar-l%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-sq%2520avatar-md%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-sq%2520avatar-s%2522%253E%253Cimg%2520src%253D%2522...%2522%2520alt%253D%2522%2522%2520%252F%253E%253C%252Fdiv%253E"
-                    style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522..%2522%2520alt%253D%2522..%2522%253E"
+                    style="width: 100%; height: 93px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                   </iframe>
                 </code>
             </div>
 
-            <!-- text-avatar -->
-            <h1 id="text-avatar" class="comp-main-subheading">Text Avatars</h1>
-            <p class="comp-doc-p">It can be Profile or Square. 3 variants are available: </p>
-
-            <div class="component-avatar flex flex-wrap flex-centre">
-                <div class="avatar avatar-xl avatar-txt v1">
-                    <h2>OG</h2>
-                </div>
-                <div class="avatar avatar-l avatar-txt v2">
-                    <h2>VK</h2>
-                </div>
-                <div class="avatar avatar-md avatar-txt v3">
-                    <h2>SN</h2>
-                </div>
+            <!-- round-image -->
+            <h1 id="round-image" class="comp-main-subheading">Round Image</h1>
+            <p class="comp-doc-p">You can add class <span class="primary-text-color">img-round</span> to make your image round shaped.</p>
+            <div class="component-wrapper flex flex-wrap flex-centre">
+                <img loading="lazy" class="img-round" src="../../../assets/images/round-img.svg">
             </div>
 
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-xl%2520avatar-txt%2520v1%2522%253E%2520%253Ch2%253EOG%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-l%2520avatar-txt%2520v2%2522%253E%2520%253Ch2%253EVK%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md%2520avatar-txt%2520v3%2522%253E%2520%253Ch2%253ESN%253C%252Fh2%253E%2520%253C%252Fdiv%253E%250A"
-                style="width: 100%; height: 133px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
+            <div class="iframe-wrapper">
+                <code><iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C0%29&t=one-light&wt=sharp&l=auto&width=680&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-round%2522%2520src%253D%2522...%2522%2520%253E"
+                    style="width: 100%; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </code>
+            </div>
 
             <!-- prev-next btns  -->
             <div class="next-prev-btns flex ">
-                <a href="#">
+                <a href="../card/card.html">
                     <button class="btn btn-footer">
-                        <i class="fas fa-angle-left"></i> Usage
+                        <i class="fas fa-angle-left"></i> Card
                     </button>
                 </a>
-                <a href="../badge/badge.html">
-                    <button class="btn btn-footer">Badge <i class="fas fa-angle-right"></i>
+                <a href="../input/input.html">
+                    <button class="btn btn-footer">Input <i class="fas fa-angle-right"></i>
                     </button>
                 </a>
             </div>
@@ -260,18 +240,17 @@
         <section class="on-this-page flex f-end flex-nowrap">
             <div class="on-this-page-bar ">
                 <h1 class="component-navbar-heading">On This Page</h1>
-                <a href="#profile-avatar">
-                    <li class="component-navbar-item">Profile Avatar</li>
+                <a href="#responsive-image">
+                    <li class="component-navbar-item">Responsive Image</li>
                 </a>
-                <a href="#square-avatar">
-                    <li class="component-navbar-item">Square Avatar</li>
+                <a href="#round-image">
+                    <li class="component-navbar-item">Round Image</li>
                 </a>
-                <a href="#text-avatar">
-                    <li class="component-navbar-item">Text Avatar</li>
-                </a>
+                
             </div>
         </section>
     </section>
     <script src="../../../app.js"></script>
 </body>
+
 </html>

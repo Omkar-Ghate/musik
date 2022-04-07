@@ -1,6 +1,15 @@
-@import url(./pages/components/css/navbar.css);
 @import url(./pages/components/css/buttons.css);
 @import url(./pages/components/css/utils.css);
 @import url(./pages/components/avatar/avatar.css);
 @import url(./pages/components/badge/badge.css);
 @import url(./pages/components/css/root-values.css);
+@import url(./pages/components/alert/alert.css);
+@import url(./pages/components/button/button.css);
+@import url(./pages/components/card/card.css);
+@import url(./pages/components/image/image.css);
+@import url(./pages/components/input/input.css);
+@import url(./pages/components/typography/typography.css);
+@import url(./pages/components/list/list.css);
+@import url(./pages/components/rating/rating.css);
+@import url(./landing-page.css);
+@import url(./pages/components/css/navbar.css);

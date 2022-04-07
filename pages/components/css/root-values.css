@@ -5,15 +5,20 @@
     --SECONDARY-S1: #1a95d6;
     --SECONDARY-S2: #585c97;
     --SECONDARY-S3: #222069;
+    --TERTIARY: #282c3f;
 
-    --BG-PRIMARY: #f3d7d5;
 
-    --DANGER: red;
+    --COMPLIMENTARY: #eff0f8;
+    --BG-PRIMARY: #f7edecdb;
+
+    --DANGER: rgb(221, 11, 11);
     --WARNING: rgb(204, 129, 60);
     --INFO: rgb(77, 77, 235);
-    --SAFE: rgb(136, 185, 38);
+    --SAFE: rgb(103, 136, 38);
     
-
+    --RATING-STAR-ICON: rgba(0, 0, 0, 0.26);
+    --RATING-STAR-ENABLED: #ffd675;
+    --RATING-STAR-CHECKED: #ffb400;
     --BORDER_RADIUS: 8px;
     
     --navbar20:1.25rem;
@@ -26,4 +31,5 @@
     --padding-act-comp-box:50rem;
 
     --cta-btn-font-size: 1rem;
+    --DOC-DESCRIPTION: 'Poppins', sans-serif;
 }

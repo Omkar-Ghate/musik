@@ -1,0 +1,59 @@
+.alert-box{
+    border-radius: 5px;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.alert-icon{
+    margin-right: 10px;
+    width: 1em;
+    height: 1em;
+}
+
+.alert-primary{
+    color: var(--PRIMARY-P1);
+    background-color: #f39a9a;
+}
+.alert-box .link-text, .alert-box .btn{
+    font-weight: 500;
+}
+.alert-secondary{
+    color: var(--SECONDARY-S2);
+    background-color: #c5c7f3;
+}
+.alert-success{
+    color: var(--SAFE);
+    background-color:  rgb(218, 236, 184);
+}
+.alert-danger{
+    color: var(--DANGER);
+    background-color: rgb(253, 188, 188);
+}
+.alert-warning{
+    color:var(--WARNING);
+    background-color: rgb(240, 214, 192);
+    /* background-color: var(--WARNING); */
+}
+.btn-close{
+    background: transparent url("../../../assets/images/close-icon.svg") center/1.1em auto no-repeat;
+    border: 1px solid transparent;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.75rem;
+    position: absolute;
+    top:0;
+    right:0;
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+.btn-close:focus{
+    box-shadow: 0 0 0 2px black;
+}
+.btn-close:hover{
+    opacity: 1;
+}

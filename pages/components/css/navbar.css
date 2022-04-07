@@ -33,7 +33,7 @@ strong {
     gap: 30px;
     list-style: none;
     text-transform: capitalize;
-    color: var(--sec-dark-purple);
+    color: var(--SECONDARY-S1);
     font-size: var(--navbar20);
     line-height: 12px;
     font-family: "sofia-pro",sans-serif;
@@ -50,68 +50,124 @@ strong {
     color: var(--PRIMARY-P2);
 }
 
-/* media queries of header navbar */
-.phone-navbar{
-    display: none;
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
+.navbar {
+  background-color: white;
+  padding: 1rem 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  text-transform: capitalize;
+  color: var(--SECONDARY-S1);
+  font-size: var(--navbar20);
+  line-height: 12px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 500;
+}
+.navbar-list-item {
+  color: var(--SECONDARY-S1);
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+.navbar-list-item:hover {
+  color: var(--PRIMARY-P1);
+}
+
+/* media queries of header navbar */
+.phone-navbar {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
-    .navbar{
-        display: none;
-    }
-    .phone-navbar{
-        display: flex;
-        padding: 10px;
-        width: 100vw;
-        height: 80px;
-        border-radius: 0px;
-        background-color: var(--lightmode-bg-color);
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-      .phone-navbar-logo{
-          width: 40px;
-          height: 40px;
-      }
-      .phone-nav-body{
-          width: 100vw;
-          height: 80vh;
-          background-color: var(--lightmode-bg-color);
-          border-radius: 0px;
-      }
-      .bar-icon{
-          border: none;
-          background-color: var(--lightmode-bg-color);
-      }
+  .navbar {
+    display: none;
+  }
+  .phone-navbar {
+    display: flex;
+    padding: 0.625rem 0;
+    width: 100vw;
+    height: 5rem;
+    border-radius: 0;
+    background-color: var(--COMPLIMENTARY);
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .phone-nav-list {
+    padding: 0 3rem;
+  }
+  .phone-navbar .navbar-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 5.5rem;
+  }
+  .phone-nav-body {
+    width: 100vw;
+    height: 80vh;
+    background-color: var(--COMPLIMENTARY);
+    border-radius: 0px;
+    align-items: center;
+  }
+  .bar-icon {
+    border: none;
+    background-color: var(--COMPLIMENTARY);
+  }
+  .hr-phone-nav {
+    margin: 1rem;
+  }
 }
 @media screen and (max-width: 900px) {
-    .navbar{
-        display: none;
-    }
-    .phone-navbar{
-        display: flex;
-        padding: 10px;
-        width: 100vw;
-        height: 80px;
-        border-radius: 0px;
-        background-color: var(--lightmode-bg-color);
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-      .phone-navbar-logo{
-          width: 40px;
-          height: 40px;
-      }
-      .phone-nav-body{
-          width: 100vw;
-          height: 80vh;
-          background-color: var(--lightmode-bg-color);
-          border-radius: 0px;
-      }
-      .bar-icon{
-          border: none;
-          background-color: var(--lightmode-bg-color);
-      }
+  .navbar {
+    display: none;
+  }
+  .phone-navbar {
+    display: flex;
+    padding: 0.625rem 0;
+    width: 100vw;
+    height: 5rem;
+    border-radius: 0px;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .phone-nav-list {
+    padding: 0 3rem;
+  }
+  .phone-navbar .navbar-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 5.5rem;
+  }
+  .phone-nav-body {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 0px;
+    align-items: center;
+  }
+  .phone-nav-body .navbar-list {
+    margin: 1rem;
+  }
+  .bar-icon {
+    border: none;
+    background-color: white;
+  }
+  .hr-phone-nav {
+    margin: 1rem;
+  }
 }
+
 
 /*  side sidebar */
 .component-navbar{
@@ -163,4 +219,122 @@ strong {
     .on-this-page{
         display: none;
     }
+}
+
+/* header navbar  */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar {
+  background-color: white;
+  padding: 1rem 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  text-transform: capitalize;
+  color: var(--SECONDARY-S1);
+  font-size: var(--navbar20);
+  line-height: 12px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 500;
+}
+.navbar-list-item {
+  color: var(--SECONDARY-S1);
+}
+.icons {
+  width: 24px;
+  height: 24px;
+}
+.navbar-list-item:hover {
+  color: var(--PRIMARY-P1);
+}
+
+/* media queries of header navbar */
+.phone-navbar {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .phone-navbar {
+    display: flex;
+    padding: 0.625rem 0;
+    width: 100vw;
+    height: 5rem;
+    border-radius: 0;
+    background-color: var(--COMPLIMENTARY);
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .phone-nav-list {
+    padding: 0 3rem;
+  }
+  .phone-navbar .navbar-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 5.5rem;
+  }
+  .phone-nav-body {
+    width: 100vw;
+    height: 80vh;
+    background-color: var(--COMPLIMENTARY);
+    border-radius: 0px;
+    align-items: center;
+  }
+  .bar-icon {
+    border: none;
+    background-color: var(--COMPLIMENTARY);
+  }
+  .hr-phone-nav {
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+  .phone-navbar {
+    display: flex;
+    padding: 0.625rem 0;
+    width: 100vw;
+    height: 5rem;
+    border-radius: 0px;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .phone-nav-list {
+    padding: 0 3rem;
+  }
+  .phone-navbar .navbar-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0 5.5rem;
+  }
+  .phone-nav-body {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 0px;
+    align-items: center;
+  }
+  .phone-nav-body .navbar-list {
+    margin: 1rem;
+  }
+  .bar-icon {
+    border: none;
+    background-color: white;
+  }
+  .hr-phone-nav {
+    margin: 1rem;
+  }
 }

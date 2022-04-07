@@ -1,0 +1,48 @@
+
+.rating-star-icon{
+    color: var(--RATING-STAR-ICON);
+}
+
+.rating-star-input:enabled .rating-star-icon{
+    cursor: pointer;
+}
+
+.rating-star-input:enabled + .rating-star-icon:hover{
+    color: var(--RATING-STAR-ENABLED);
+}
+
+.rating-star-input{
+    width: 0;
+    margin: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.rating-star-input:checked + .rating-star-icon{
+    color: var(--RATING-STAR-CHECKED);
+}
+
+.rating-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-size: 0.75rem;
+    line-height: 12px;
+    color: black;
+    background-color: white;
+    padding: 0.3rem;
+}
+.rating-badge-number:not(:last-child){
+    margin-right: 0.2rem;
+}
+.rating-badge-star{  
+    color: var(--RATING-STAR-CHECKED);
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.2rem;
+}
+.example-rating-form {
+    background-color: white;
+    padding: 1rem;
+}
