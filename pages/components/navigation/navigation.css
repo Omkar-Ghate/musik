@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&family=Lato&family=Lobster&family=Poppins:wght@300&family=Quintessential&family=Roboto:wght@300;400&display=swap");
+
+.nav-bar {
+  min-height: 10vh;
+
+  width: 100%;
+  align-items: center;
+  background-color: #fcfcfc;
+
+  font-weight: 500;
+
+  padding: 1rem;
+  box-sizing: border-box;
+  z-index: var(--z-index-3);
+
+  display: flex;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.625rem 1.5rem;
+}
+.navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Quintessential", cursive;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  padding: 10px;
+}
+.nav-section-items {
+  box-sizing: border-box;
+  padding: 0 6px;
+}
+.nav-section-item-width50pc {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 6px;
+}
+.avatar-in-nav-links {
+  display: none;
+}
+.nav-bar-links {
+  display: flex;
+  z-index: 5;
+}
+.nav-icons {
+  display: flex;
+  justify-self: right;
+  box-sizing: border-box;
+  padding: 0 6px;
+}
+.nav-icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icon-link .nav-icon-text {
+  font-size: 0.75rem;
+  margin-top: 4px;
+  font-family: "Poppins", sans-serif;
+}
+.nav-icon-link .nav-icon {
+  color: var(--NAV-ICON);
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+}
+.search-bar {
+  background-color: var(--SEARCH-BAR-BG);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--SEARCH-BAR);
+  border-radius: 5px;
+  justify-self: right;
+}
+.search-bar-input {
+  width: calc(100% - 2rem);
+  border: none;
+  background-color: transparent;
+  padding: 0.625rem 1rem;
+  outline: 0px;
+}
+.search-bar-btn {
+  padding: 0.625rem 0rem 0.625rem 1rem;
+}
+
+.burger {
+  display: none;
+  z-index: 6;
+  cursor: pointer;
+}
+.burger .line1, .burger .line2, .burger .line3 {
+  height: 2px;
+  width: 1.5rem;
+  background-color: var(--SEARCH-BAR);
+  margin: 5px 0;
+}
+.nav-logo-title {
+ font-size: 1.2rem;
+ margin-left: 1rem;
+
+}
+.list-inline-item {
+  margin: 1rem;
+}
+
+/* status-badge: some feats to be added to CL */
+
+.status-badge{
+    height: 1.25rem;
+    min-width: 1.25rem;
+    padding: 2px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: .75em;
+    box-sizing: border-box;
+}
+
+.status-badge-number{
+    background-color: var(--PRIMARY-P3);
+    border: none;
+    right:-1rem;
+    top: -0.7rem;
+}
+.badge-container{
+    position: relative;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.nav-title {
+  margin-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-sizing: border-box;
+}
+.avatar-in-nav-links i {
+  color: white;
+}
+.nav-logo {
+  width: 100%;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.logo-title {
+  font-size: 2rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+.logo-and-symbol-style {
+  font-size: 1rem;
+  margin-right: 3px;
+}
+.logo-tagline {
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: block;
+  width: fit-content;
+}
+.navlinks-style {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 400;
+}
+.navlinks-active {
+  color: var(--PRIMARY-P1);
+}
+.search-bar {
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid rgb(245, 245, 246);
+}
+.search-bar-btn {
+  padding: 0.625rem 1rem;
+  border-radius: 5px;
+}
+.activeSearchBar {
+  background-color: white;
+  border: 1px solid rgb(199, 199, 201);
+}
+.search-clear-icon {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  z-index: 1;
+}
+.link-no-style {
+    padding: 10px;
+}
